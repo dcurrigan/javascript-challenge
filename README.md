@@ -4,7 +4,7 @@ Week 14 Javascript Homework
 > Created by Dale Currigan  
 > June 2021  
   
-![Javascript](/static/images/nasa.jpg)    
+![Javascript](UFO-level-1/static/images/nasa.jpg)    
 
 ## Table of contents  
 * [Project Intro](#Project-Intro)  
