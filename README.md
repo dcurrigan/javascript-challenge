@@ -66,7 +66,8 @@ The site includes a splash screen that welcomes the user and sets the atmosphers
 
 ![Javascript](/resources/Capture2.png)  
   
-Iteration and a series of nested If Statements are used to filter the data while still allowing the user to leave certain fileds blank as 'wildcards'   
+Iteration and a series of nested If Statements are used to filter the data while still allowing the user to leave certain fileds blank as 'wildcards'  
+  
   
 ```
 for (i=0; i<tableData.length; i++) {  
@@ -87,7 +88,10 @@ for (i=0; i<tableData.length; i++) {
                     if ((tableData[i].shape == shapeValue) || (shapeValue == "Any") || (shapeValue == "")) {  
                         filtered.push(tableData[i]);  
 ```
+  
+If the search returns a positive result the table data is displayed:  
 
+![Javascript](/resources/Capture1.png)  
 
  
    
