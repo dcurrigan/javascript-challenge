@@ -10,7 +10,7 @@ Week 14 Javascript Homework
 * [Project Intro](#Project-Intro)  
 * [Project Structure](#Project-Structure)  
 * [Setup](#Setup)  
-* [Websites Scraped](#Websites-Scraped)  
+* [Process](#Process)  
 * [Contributors](#Contributors)  
 * [Status](#Status)  
 
@@ -55,28 +55,15 @@ javascript-challenge
   
 # Setup 
   
-##### Part 1 - Webscrape  
-* Open mission_to_mars.ipynb as a Jupyter Notebook  
-* Once opened, Select *Restart & Run All* from Kernel menu to view the results  
-  
-  
-##### Part 2 - MongoDB and Flask Application  
-* First initialise a Mongo databse by typing 'mongod' at the terminal (requires installation of MongoDB)
-* Run app.py with the commond 'python app.py' from the terminal  
-* The page will initially be empty except for the title and 'Get New Data' button as the Mongo database is not yet populated with data  
-* Click the 'Get New Data' button to perform a scrape of the four sites  
-* The App will load the data to the page once the scrape is complete
-* The scrape cna be repeated as desired    
+* The site is can be accessed at: https://dcurrigan.github.io/javascript-challenge/
+* The html for the site is all contained in index.html
+* All styles are contained within static/css/style.css
+* The javascript code enabling the functionality of the site is can be found within static/js/app.js
+* The base dataset is found within static/js/data.js   
 
-# Websites Scraped  
+# Process 
   
-|No|Name|Link|
-|-|-|-|
-|1| NASA Mars News         |https://redplanetscience.com/| 
-|2| JPL Mars Space Images  |https://spaceimages-mars.com/|
-|3| Mars Facts             |https://galaxyfacts-mars.com/|  
-|4| Mars Hemispheres       |https://marshemispheres.com/|  
-
+ 
    
 # Contributors  
 Dale Currigan  
