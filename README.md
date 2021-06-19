@@ -92,6 +92,11 @@ for (i=0; i<tableData.length; i++) {
 If the search returns a positive result the table data is displayed:  
 
 ![Javascript](/resources/Capture1.png)  
+  
+Otherwise the a 'No match' response is recieve:  
+
+![Javascript](/resources/Capture4.png)  
+
 
  
    
