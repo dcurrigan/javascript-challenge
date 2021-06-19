@@ -26,30 +26,30 @@ Week 14 Javascript Homework
   
 # Project Structure  
 ```
-web-scraping-challenge   
+javascript-challenge   
 |  
 |    
-|__ mission_to_mars.ipynb               # Jupyter Notebook for the project
-|__ app.py                              # The Flask app for the project 
-|__ scrape_mars.py                      # Scrape functionality for the Flask app
+|__ index.html                          # The site landing page html doc
 |__ README.md                           # This file
-|
-|__ templates/                          # Directory for html docs
-|   |__ index.html                      # App homepage
 |
 |__ static/                              
 |   |__css/                             # Directory for css stylesheets
-|      |__ booststrap.css               # Boostswatch 'United' boostrap template 
-|      |__ styles.css                   # Custom styles for the app           
+|   |   |__ styles.css                              
+|   |    
+|   |__js/                              # Directory for javscript code
+|   |  |__ app.js
+|   |  |__ data.js
+|   |   
+|   |__images/                          # Directory for image files
+|   |  |__ nasa.jpg
+|   |  |__ ufo.jpg
+|   |  |__ ufo.svg
 |
-|__ Screenshots/                        # Directory containing screenshots of the app
-|   |__ screenshot_1.png
-|   |__ screenshot_2.png
-|   |__ screenshot_3.png
-|
-|__ Resources/                          # Directory for images contained in the Readme   
-|   |__ meission_to_mars.png                  
-|
+|__ Resources/                          # Directory for screen captures for Readme
+|   |__ Capture1.png                  
+|   |__ Capture2.png           
+|   |__ Capture3.png           
+|   |__ Capture4.png           
 
 ``` 
   
