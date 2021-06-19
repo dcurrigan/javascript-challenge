@@ -10,7 +10,7 @@ Week 14 Javascript Homework
 * [Project Intro](#Project-Intro)  
 * [Project Structure](#Project-Structure)  
 * [Setup](#Setup)  
-* [Process](#Process)  
+* [Design](#Design)  
 * [Contributors](#Contributors)  
 * [Status](#Status)  
 
@@ -61,8 +61,13 @@ javascript-challenge
 * The javascript code enabling the functionality of the site is can be found within static/js/app.js
 * The base dataset is found within static/js/data.js   
 
-# Process 
-  
+# Design 
+The site includes a splash screen that welcomes the user and sets the atmosphers to the site 
+
+![Javascript](/resources/Catpture1.png)
+
+
+
  
    
 # Contributors  
