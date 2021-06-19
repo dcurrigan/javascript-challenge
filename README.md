@@ -93,8 +93,12 @@ If the search returns a positive result the table data is displayed:
 
 ![Javascript](/resources/Capture1.png)  
   
-Otherwise the a 'No match' response is recieve:  
-
+By entering more search terms, the data is filtered further: 
+  
+![Javascript](/resources/Capture3.png)  
+  
+If no corresponding entries are found a 'No match' response is recieved:  
+  
 ![Javascript](/resources/Capture4.png)  
 
 
