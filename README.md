@@ -64,8 +64,29 @@ javascript-challenge
 # Design 
 The site includes a splash screen that welcomes the user and sets the atmosphers to the site 
 
-![Javascript](/resources/Capture2.png)
-
+![Javascript](/resources/Capture2.png)  
+  
+Iteration and a series of nested If Statements are used to filter the data while still allowing the user to leave certain fileds blank as 'wildcards'   
+  
+```
+for (i=0; i<tableData.length; i++) {  
+  
+    // filter by date   
+    if ((tableData[i].datetime == dateValue) || (dateValue == "") ) {  
+  
+        // filter by city   
+        if ((tableData[i].city == cityValue) || (cityValue == "any") || (cityValue == "")) {  
+  
+            //filter by state  
+            if ((tableData[i].state == stateValue) || (stateValue == "any") || (stateValue == "")) {  
+  
+                //filter by country  
+                if ((tableData[i].country == countryValue) || (countryValue == "Any") || (countryValue == ""))  {  
+  
+                    //filter by shape  
+                    if ((tableData[i].shape == shapeValue) || (shapeValue == "Any") || (shapeValue == "")) {  
+                        filtered.push(tableData[i]);  
+```
 
 
  
