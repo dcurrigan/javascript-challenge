@@ -64,7 +64,7 @@ javascript-challenge
 # Design 
 The site includes a splash screen that welcomes the user and sets the atmosphers to the site 
 
-![Javascript](/resources/Catpture1.png)
+![Javascript](/resources/Capture2.png)
 
 
 
