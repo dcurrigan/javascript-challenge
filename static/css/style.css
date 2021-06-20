@@ -226,6 +226,9 @@ select {
   }
 }
 
+/* My custom styles */
+/* ---------------- */
+
 
 #no-match {
   visibility: hidden;
@@ -242,11 +245,6 @@ select {
   opacity: 1;
   display:block;
   position: absolute;
-}
-
-div span {
-  opacity: 1;
-  animation: splash-fade 3s forwards linear !important;
 }
 
 
@@ -296,10 +294,6 @@ div span {
   }
 
 .nav.navbar {
-  visibility: hidden;
-}
-
-#table-area {
   visibility: hidden;
 }
 

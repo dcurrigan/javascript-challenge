@@ -114,6 +114,15 @@ function loadPage() {
     // Hide the splash page elements 
     document.getElementById('splash-div').style.visibility = 'hidden';
 
+    // Render the table
+    tableData.forEach((insertData) => {
+        var row = tbody.append("tr");
+        Object.entries(insertData).forEach(([key, value]) => {
+            var cell = row.append("td");
+            cell.text(value);
+        });
+    });
+
     // Trigger reflow so text animations are replayed
     var el = document.getElementById('ufo-header');
     el.style.animation = 'none';
