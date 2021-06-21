@@ -97,9 +97,8 @@ function runEnter() {
                 
         filtered.forEach((insertData) => {
             var row = tbody.append("tr");
-            Object.entries(insertData).forEach(([key, value]) => {
-                var cell = row.append("td");
-                cell.text(value);
+            Object.values(insertData).forEach(value => {
+                row.append("td").text(value);
             });
         });
     }
@@ -117,9 +116,8 @@ function loadPage() {
     // Render the table
     tableData.forEach((insertData) => {
         var row = tbody.append("tr");
-        Object.entries(insertData).forEach(([key, value]) => {
-            var cell = row.append("td");
-            cell.text(value);
+        Object.values(insertData).forEach(value => {
+            row.append("td").text(value);
         });
     });
 
